@@ -25,7 +25,7 @@ with st.form("upload_form"):
     host_code = st.text_input("کد میزبانی")
     name = st.text_input("نام و نام خانوادگی")
     place_name = st.text_input("نام اقامتگاه")
-    doc_type = st.selectbox("نوع تعهدنامه", ["تعهدنامه مالی", "تعهدنامه حقوقی", "تعهدنامه ویژه"])
+    doc_type = st.selectbox("نوع تعهدنامه", ["تعهدنامه ریت پایین","تعهدنامه چت با میهمان", "تعهدنامه نبستن تقویم", "تعهدنامه رد رزرو"])
     uploaded_file = st.file_uploader("آپلود تصویر تعهدنامه", type=["jpg", "jpeg", "png", "pdf"])
     submitted = st.form_submit_button("ارسال")
 
