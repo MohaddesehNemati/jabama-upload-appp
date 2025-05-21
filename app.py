@@ -74,7 +74,7 @@ if submitted:
                     msg.add_attachment(file_data, maintype="application", subtype="octet-stream", filename=filename)
 
                 with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
-                    smtp.login("youremail@gmail.com", "your-app-password")
+                    smtp.login("Mohaddeseh.nemati.aghdam@gmail.com", "yeza hhth ujxo kcos")
                     smtp.send_message(msg)
 
                 st.success("فایل با موفقیت آپلود و ایمیل شد.")
