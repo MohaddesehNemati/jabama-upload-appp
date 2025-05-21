@@ -17,7 +17,7 @@ if not os.path.exists(DATA_FILE):
 
 col1, col2 = st.columns([4, 1])
 with col2:
-    st.image(LOGO_PATH, use_column_width=True)
+   st.image(LOGO_PATH, use_container_width=True)
 
 st.title("فرم ارسال تعهدنامه میزبان‌ها")
 
